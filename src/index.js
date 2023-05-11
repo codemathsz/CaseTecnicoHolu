@@ -31,14 +31,14 @@ function calculate(potentialTotal){
 
 rl.question("Qual a potencia total? ", (potentialTotal) =>{
 
-    const resultado = calculate(potentialTotal)
+    const result = calculate(potentialTotal)
 
-    console.log("\nEstrutura usada: "+ resultado.structureType);
-    console.log("Quantidade de painéis: " + resultado.amountPlates);
-    console.log("Quantidade de inversores: " + resultado.inverters);
-    console.log("Potência do painel utilizado: " + resultado.potential + "W");
-    console.log("Comprimento de estrutura necessário: " + resultado.lengthOfStructure + "m");
-    console.log("Área útil necessária: " + resultado.usefulArea + "m²");
+    console.log("\nEstrutura usada: "+ result.structureType);
+    console.log("Quantidade de painéis: " + result.amountPlates);
+    console.log("Quantidade de inversores: " + result.inverters);
+    console.log("Potência do painel utilizado: " + result.potential + "W");
+    console.log("Comprimento de estrutura necessário: " + result.lengthOfStructure + "m");
+    console.log("Área útil necessária: " + result.usefulArea + "m²");
     exit()
 })
 
